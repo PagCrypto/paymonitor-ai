@@ -1,6 +1,7 @@
-# PagMonitor AI
+# PayMonitor AI
 
-Dashboard inteligente para análise de risco em transações Solana com Substreams, IA e visualização em tempo real para validadores e usuários da PagCrypto.
+**PayMonitor AI** é um dashboard inteligente que detecta riscos em tempo real com base em transações on-chain da Solana.  
+Utiliza Substreams para indexação de dados e machine learning (Isolation Forest) para identificar comportamentos anômalos — tudo com visualização via Next.js e integração via API.
 
 ## Estrutura
 
@@ -13,7 +14,7 @@ Dashboard inteligente para análise de risco em transações Solana com Substrea
 
 ```bash
 # 1. Clone o repositório
-git clone <REPO_URL> && cd pagmonitor-ai
+git clone github.com/PagCrypto/paymonitor-ai && cd paymonitor-ai
 
 # 2. Construa e inicie os serviços
 docker-compose up --build
